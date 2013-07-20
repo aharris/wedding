@@ -1,7 +1,7 @@
 doctype html
 html
   head
-    title Beth and Justin
+    title Donelle and Ashton
     = stylesheet_link_tag :application, media: :all
     /[ if lt IE 9 ]
       = stylesheet_link_tag :ie, media: :all
@@ -10,23 +10,23 @@ html
     = csrf_meta_tags
 
   body
-    nav
-      .menu.container
-        ul
-          li= link_to "Us", root_path
-          li= link_to "Party", party_path
-          li= link_to "Venue", venue_path
-          li= link_to "Registry", registry_path
-          li= link_to "Travel", travel_path
-          li= link_to "RSVP", rsvp_path, class: :rsvp
-        .menu-button
-          a(href='#') menu
+    / nav
+    /   .menu.container
+    /     ul
+    /       li= link_to "Us", root_path
+    /       li= link_to "Party", party_path
+    /       li= link_to "Venue", venue_path
+    /       li= link_to "Registry", registry_path
+    /       li= link_to "Travel", travel_path
+    /       li= link_to "RSVP", rsvp_path, class: :rsvp
+    /     .menu-button
+    /       a(href='#') menu
 
     .content-wrap.container
       header
         .header
-          h1  Beth <span class="amp">&amp;</span> Justin
-          .date 1 • 5 • 13
+          h1  Donelle <span class="amp">&amp;</span> Ashton
+          .date 9 • X • 15
       article
         .content
           - flash.each do |type, message|
